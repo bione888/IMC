@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #313131;
+    overflow: hidden;
+    color: white;
+}
+
+hr {
+    height: 5px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.container {
+    background-color: black;
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 750px;
+    text-align: center;
+}
+
+#titulo {
+    margin-top: 10px;
+}
+
+input {
+    font-size: 1.2em;
+    color: white;
+    height: 40px;
+    text-align: center;
+    background-color: #313131;
+    padding: 10px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#nome {
+    margin-top: 35px;
+}
+
+#altura {
+    margin-top: 35px;
+}
+
+#peso {
+    margin-top: 35px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+input[type = submit] {
+    background-color: white;
+    color: black;
+    margin-top: 35px;
+    transition-duration: 0.3s;
+}
+
+#submit:hover {
+    background-color: black;
+    color: white;
+}
+
+#resultados {
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 35px;
+    margin-left: 15%;
+    background-color: #313131;
+    width: 350px;
+    height: 150px;
+}
+
+#escrever , #status {
+    font-size: 1.2em;
+}
